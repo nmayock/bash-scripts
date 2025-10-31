@@ -1,0 +1,9 @@
+Amaj|Bmin|C#min|Dmaj|Emaj|F#min|G#dim
+Bmaj|C#min|D#min|Emaj|F#maj|G#min|A#dim
+Cmaj|Dmin|Emin|Fmaj|Gmaj|Amin|Bdim
+Dmaj|Emin|F#min|Gmaj|Amaj|Bmin|C#dim
+Emaj|F#min|G#min|Amaj|Bmaj|C#min|D#dim
+Fmaj|Gmin|Amin|BbMaj|Cmaj|Dmin|Edim
+Gmaj|Amin|Bmin|Cmaj|Dmaj|Emin|F#dim
+
+
