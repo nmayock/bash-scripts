@@ -4,6 +4,7 @@ Planned updates:
 2. More progressions
 3. interval suggestions
 4. Alternate chord suggestions
+5. modes...maybe
 
 If you want to make the script executable system wide make a directroy in /usr/local/share/ and copy the script and majorKeys.txt text file directory to 
 /usr/local/share/<whatever_directory> and chmod +x them then
