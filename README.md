@@ -1,4 +1,5 @@
-Basic bash script, allows user to select a key and a progression in that key and outputs the progression
+Basic bash script, allows user to select a key and a progression in that key and outputs the progression.
+Requires https://github.com/charmbracelet/gum
 Planned updates: 
 1. More Keys
 2. More progressions
