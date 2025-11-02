@@ -4,6 +4,8 @@
 KEYCHOICE=$(gum choose "Amaj" "Bmaj" "Cmaj" "Dmaj" "Emaj" "Fmaj" "Gmaj")
 #variable used to allow for using options to specify files with non major keys later
 FILE="$(dirname "$0")/majorKeys.txt"
+#Scale tabs dir
+SCALEDIR="$(dirname "$0")/scaleTabs"
 #Reads file and assigns variables to fields
 while IFS='|' read -r MAJ1 MIN2 MIN3 MAJ4 MAJ5 MIN6 DIM7; do
 	if [[ $KEYCHOICE == $MAJ1 ]]; then
@@ -25,6 +27,10 @@ while IFS='|' read -r MAJ1 MIN2 MIN3 MAJ4 MAJ5 MIN6 DIM7; do
 			"More Jazz (I-vi-ii-V)") echo "Progression: "$MAJ1"7 "$MIN6"7 "$MIN2"7 "$MAJ5"7"	;;
             		"Country (vi-IV-I-V)") echo "Progression: $MIN6 $MAJ4 $MAJ1 $MAJ5"			;;
 		esac
+		SCALEFILE="$SCALEDIR/${KEYCHOICE}.txt"
+                if [[ -f "$SCALEFILE" ]]; then
+                        cat  "$SCALEFILE"
+                fi
 
 	fi
 
