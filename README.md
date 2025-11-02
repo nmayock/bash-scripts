@@ -1,6 +1,9 @@
 Basic bash script, allows user to select a key and a progression in that key and outputs the progression.
 Requires https://github.com/charmbracelet/gum install w/ sudo yum install gum
 
+# I added scales, they aren't wrong but not really usefull. Ill be adding another gum choose to select a scale that will have options for
+# tonic note, key, mode, and diminished (idk what that last one really is other than the 7th of a given key but it'll be there soon...:))
+
 Planned updates: 
 1. More Keys
 2. More progressions
