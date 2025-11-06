@@ -1,7 +1,7 @@
 #!/bin/bash
 #script is used to help build chord progressions
 #Key selection
-KEYCHOICE=$(gum choose "Amaj" "Bmaj" "Cmaj" "Dmaj" "Emaj" "Fmaj" "Gmaj")
+KEYCHOICE=$(gum choose "Amaj" "Bbmaj" "Bmaj" "Cmaj" "C#maj" "Dmaj" "Ebmaj" "Emaj" "Fmaj" "F#maj" "Gmaj" "Abmaj")
 #variable used to allow for using options to specify files with non major keys later
 FILE="$(dirname "$0")/majorKeys.txt"
 #Scale tabs dir

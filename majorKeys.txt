@@ -1,9 +1,14 @@
 Amaj|Bmin|C#min|Dmaj|Emaj|F#min|G#dim
+Bbmaj|Cmin|Dmin|Ebmaj|Fmaj|Gmin|Adim
 Bmaj|C#min|D#min|Emaj|F#maj|G#min|A#dim
 Cmaj|Dmin|Emin|Fmaj|Gmaj|Amin|Bdim
+C#maj|D#min|E#min|F#maj|G#maj|A#min|B#(C)dim
 Dmaj|Emin|F#min|Gmaj|Amaj|Bmin|C#dim
+Ebmaj|Fmin|Gmin|Abmaj|Bbmaj|Cmin|Ddim
 Emaj|F#min|G#min|Amaj|Bmaj|C#min|D#dim
 Fmaj|Gmin|Amin|BbMaj|Cmaj|Dmin|Edim
+F#maj|G#min|A#min|Bmaj|C#maj|D#min|E#(F)dim
 Gmaj|Amin|Bmin|Cmaj|Dmaj|Emin|F#dim
+Abmaj|Bbmin|Cmin|Dbmaj|EbMaj|Fmin|Gdim
 
 
